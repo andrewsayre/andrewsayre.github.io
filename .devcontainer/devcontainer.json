@@ -1,0 +1,31 @@
+{
+  "name": "andrewsayre.github.io",
+  "image": "mcr.microsoft.com/devcontainers/jekyll",
+  "features": {
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "latest"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "davidanson.vscode-markdownlint",
+        "editorconfig.editorconfig",
+        "GitHub.vscode-pull-request-github",
+        "mrmlnc.vscode-scss",
+        "streetsidesoftware.code-spell-checker",
+        "taichi.vscode-textlint",
+        "yzhang.markdown-all-in-one"
+      ],
+      "settings": {
+        "editor.renderWhitespace": "boundary",
+        "editor.rulers": [80, 100, 120],
+        "gitlens.showWelcomeOnInstall": false,
+        "gitlens.showWhatsNewAfterUpgrades": false,
+        "terminal.integrated.shell.linux": "/usr/bin/zsh",
+        "workbench.startupEditor": "none",
+        "rubyLsp.rubyVersionManager": "none"
+      }
+    }
+  }
+}
