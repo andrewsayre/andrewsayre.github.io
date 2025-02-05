@@ -10,6 +10,9 @@
 		@include icon;
 		border-bottom: none;
 		position: relative;
+		font-family: _font(family);
+		font-weight: _font(weight);
+		line-height: inherit;
 
 		> .label {
 			display: none;
@@ -19,15 +22,15 @@
 			line-height: inherit;
 		}
 
-		&.solid {
+		&.fa-solid {
 			&:before {
 				font-weight: 900;
 			}
 		}
 
-		&.brands {
+		&.fa-brands {
 			&:before {
-				font-family: 'Font Awesome 5 Brands';
+				font-family: 'Font Awesome 6 Brands';
 			}
 		}
 	}
