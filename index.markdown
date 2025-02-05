@@ -3,4 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+alt_title: "Basically Basic"
+sub_title: "Your new default Jekyll theme"
+
 ---
