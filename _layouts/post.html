@@ -2,19 +2,27 @@
 layout: default
 ---
 				<!-- Wrapper -->
+                <div itemscope itemtype="http://schema.org/BlogPosting">
                 <section id="wrapper">
                     <header>
                         <div class="inner">
-                            <h2>{{ page.title | escape }}</h2>
-                            <p>{{ page.description }}</p>
+                            <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+                            <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                                  {{ page.date | date: "%b %-d, %Y" }}
+                            </time></p>
                         </div>
                     </header>
 
                     <!-- Content -->
                         <div class="wrapper">
                             <div class="inner">
-                                {{ content }}
+                                <div itemprop="articleBody">
+                                    {{ content }}
+                                </div>
+                                <ul class="actions">
+                                    <li><a href="/" class="button">Home</a></li>
+                                </ul>
                             </div>
                         </div>
-
                 </section>
+                </div>
