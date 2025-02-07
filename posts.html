@@ -1,0 +1,40 @@
+---
+layout: home
+title: Recent Updates
+description: >
+    All updates and posts from Andrew Sayre
+permalink: /posts/
+---
+<div class="wrapper">
+    <div class="inner">
+        <div class="table-wrapper">
+            <table>
+                <thead class="hidden">
+                    <tr>
+                        <th>Date</th>
+                        <th>Title</th>
+                        <th>Summary</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    {%- for post in site.posts -%}
+                    <tr>
+                        <td class="nowrap">{{ post.date | date: "%b %-d, %Y" }}</td>
+                        <th><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></th>
+                        <td>
+                            {{ post.excerpt }}
+                        </td>
+                        <td>
+                            <ul class="actions small">
+                                <li><a href="{{ post.url | relative_url }}" class="button primary small">Read More</a></li>
+                            </ul>
+                        </td>
+                    </tr>
+                    {%- endfor -%}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

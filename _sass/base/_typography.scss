@@ -225,3 +225,12 @@
 	.larger {
 		font-size: 1.2em;
 	}
+
+	.hidden {
+		display: none;
+		visibility: hidden;
+	}
+
+	.nowrap {
+		text-wrap-mode: nowrap;
+	}

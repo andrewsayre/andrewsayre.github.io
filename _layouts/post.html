@@ -1,29 +1,27 @@
 ---
 layout: default
 ---
-				<!-- Wrapper -->
-                <div itemscope itemtype="http://schema.org/BlogPosting">
-                <section id="wrapper">
-                    <header>
-                        <div class="inner">
-                            <h2 itemprop="name headline">{{ page.title | escape }}</h2>
-                            <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                                  {{ page.date | date: "%b %-d, %Y" }}
-                            </time></p>
-                        </div>
-                    </header>
-
-                    <!-- Content -->
-                        <div class="wrapper">
-                            <div class="inner">
-                                <div itemprop="articleBody">
-                                    <span class="image left"><img src="{{ page.image }}" alt="" /></span>
-                                    {{ content }}
-                                </div>
-                                <ul class="actions">
-                                    <li><a href="/" class="button">Home</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                </section>
+<div itemscope itemtype="http://schema.org/BlogPosting">
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+                <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                        {{ page.date | date: "%b %-d, %Y" }} by Andrew Sayre
+                </time></p>
+            </div>
+        </header>
+        <div class="wrapper">
+            <div class="inner">
+                <div itemprop="articleBody">
+                    <span class="image left"><img src="{{ page.image }}" alt="" /></span>
+                    {{ content }}
                 </div>
+                <ul class="actions">
+                    <li><a href="/posts/" class="button primary">All Posts</a></li>
+                    <li><a href="/" class="button">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
