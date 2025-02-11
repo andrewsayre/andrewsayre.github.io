@@ -1,11 +1,90 @@
 ---
 layout: page
 title: Curriculum Vitae
-description: View my experience, accomplishments, and expertise
+description: View my experience, accomplishments, and education
 permalink: /cv/
 ---
+
+<section id="one" class="wrapper spotlight style1">
+    <div class="inner">
+        <div class="image"><img src="/assets/images/profile.jpg" alt="" /></div>
+        <div class="content">
+            <h2 class="major">Andrew Sayre, MA</h2>
+            <p>{{ site.data.cv.summary | escape }}</p>
+            <p><strong>Skills:</strong> {{ site.data.cv.skills | join: ', '}}</p>
+            <a href="/about/" class="special">More about Andrew</a>
+        </div>
+    </div>
+</section>
+
+<div class="wrapper highlight style3">
+    <div class="inner">
+        <h3 class="major">Overview</h3>
+        <ul class="inline">
+            <li><a href="#highlights">Highlights</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#presentations">Presentations</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#education">Education</a></li>
+        </ul>
+    </div>
+</div>
+
 <div class="wrapper">
     <div class="inner">
-        <h3 class="major">Coming soon</h3>
+        <h3 class="major" id="highlights">Career Highlights</h3>
+        <ul class="spaced">
+            {%- for highlight in site.data.cv.highlights -%}
+            <li>{{ highlight | escape }}</li>
+            {%- endfor -%}
+        </ul>
+
+        <h3 class="major" id="experience">Experience</h3>
+        <section class="experience">
+            {%- for position in site.data.cv.experience.positions -%}
+            <div class="row">
+                <div class="col-4 col-12-small">
+                    {%- assign logo_alt = position.logo_alt | default: position.company -%}
+                    <p class="company"><span class="image left"><img src="{{ position.logo | relative_url }}" alt="{{ logo_alt | escape }}" /></span><span class="name">{{ position.company | escape }}</span></p>
+                    <div class="position">
+                        <p class="large"><strong>{{ position.title | escape }}</strong></p>
+                        <p class="small">
+                            <time datetime="{{ position.start_date | date: '%Y-%m-%d' }}">{{ position.start_date | date: site.position_date_format }}</time> - 
+                            <time datetime="{{ position.end_date | date: '%Y-%m-%d' }}">{{ position.end_date | date: site.position_date_format }}</time></p>
+                        <p class="small">{{ position.location | escape }}</p>
+                    </div>
+                </div>
+                <div class="col-8 col-12-small">
+                    {%- if position.responsibilities.size > 0 -%}
+                    <h5>Responsibilities</h5>
+                    <ul class="spaced">
+                        {%- for responsibility in position.responsibilities -%}
+                        <li>{{ responsibility | escape }}</li>
+                        {%- endfor -%}
+                    </ul>
+                    {%- endif -%}
+                    {%- if position.accomplishments.size > 0 -%}
+                    <h6>Accomplishments</h6>
+                    <ul class="spaced">
+                        {%- for accomplishment in position.accomplishments -%}
+                        <li>{{ accomplishment | escape }}</li>
+                        {%- endfor -%}
+                    </ul>
+                    {%- endif -%}
+                </div>
+            </div>
+            <hr />
+            {%- endfor -%}
+            <p class="careernote"><em><strong>Career Note:</strong> {{ site.data.cv.experience.career_note | escape }}</em></p>
+        </section>
+
+        <h3 class="major" id="presentations">Presentations</h3>
+
+        <h3 class="major" id="projects">Projects</h3>
+
+        <h3 class="major" id="certifications">Certifications</h3>
+
+        <h3 class="major" id="education">Education</h3>
     </div>
 </div>

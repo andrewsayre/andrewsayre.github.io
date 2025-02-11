@@ -1,0 +1,92 @@
+summary: | 
+  Purpose-driven software engineering leader with 15+ years of experience delivering highly scaled SaaS, IoT, and FinTech products. 
+  Successful track record of leading, motivating, and scaling teams to deliver innovative products in fast-paced environments. 
+  Passionate about fostering engineering excellence, building diverse teams, promoting life-long learning, and creating environments where people thrive and do their best work.
+skills:
+  - Software Engineering
+  - Product Management
+  - Program Management
+  - Roadmap Development
+  - Strategic Planning
+highlights:
+  - Launched SmartThing's B2B IoT SaaS Platform (APIs, SDKs, and a React-based mobile app) by leading a large cross-functional engineering effort across 12+ teams, resulting in on-time delivery for a key business partnership.
+  - Provided executive leadership to an enterprise modernization strategy aimed at transforming the culture and technology to get to market faster, increase customer and employee satisfaction, and reduce risk at U.S. Bank.
+  - Orchestrated and led an agile change leadership transformation for an engineering department of 32 team members resulting in 50% increase in customer satisfaction and 32% increase in employee engagement.
+  - Founded and operated a technology company that provided consulting, developed 20 custom web applications, and managed website and email hosting services with 99.99% uptime for 32 customers.
+  - 20+ years of experience in software engineering and architecture across Java, .NET, Python, Node.js, Golang, Scala, AWS, and other technology stacks.
+experience:
+  career_note: Additional Experience as a Front-End Developer/Software Engineer at Augsburg College (Aug 2003 - May 2007) and Software Engineer at Certified Power, Inc. (May 2003 - Aug 2003)
+  positions:
+    - title: Director of Engineering
+      company: SmartThings
+      logo: /assets/images/logo-smartthings.png
+      logo_alt: Samsung SmartThings
+      start_date: 2019-08-01
+      end_date: 2024-02-28
+      location: Minneapolis, MN
+      responsibilities:
+        - Led 5 full-stack teams (approx. 37 members), managing managers and principal engineers, in development of highly scaled IoT products for 300MM+ users across device, edge, and cloud platforms.
+      accomplishments:
+        - Launched an IoT B2B SaaS platform by scaling an engineering team and leading a cross-functional global program across 12 teams, resulting in on-time delivery for a key business partnership.
+        - Spearheaded SmartThing’s first AI/ML-based features to enhance customer convenience by recruiting top talent to establish and build AI/ML research and MLOps teams.
+        - Advanced product engineering excellence by introducing tools and best practices for technical decision making, executive reporting, and program management that were adopted across the organization.
+        - Achieved a consistent 90%+ employee engagement score and 97%+ annual retention rate by mentoring managers in leadership development, with a particular emphasis on attracting and hiring diverse teams.
+        - Managed and contributed to SmartThings’ open-source APIs, SDKs and projects, used by 10,000+ developers to troubleshoot issues, build custom components, and enhance product functionality.
+        - Achieved 100% attainment of 28 accountable semiannual company OKRs by developing technical roadmaps and managing project delivery in collaboration with executives and global stakeholders.
+    - title: Director of Engineering
+      company: U.S. Bank
+      logo: /assets/images/logo-usbank.png
+      start_date: 2017-07-01
+      end_date: 2019-08-30
+      location: Minneapolis, MN
+      responsibilities:
+        - Promoted to the executive team to lead the core systems modernization strategy for a 12,000 person IT organization, managing a team of 7 senior managers.
+      accomplishments:
+        - Aligned 8+ key executive leaders and board members by developing a compelling vision, mission, and strategy to transform technology, people, and processes into a modern, frictionless engineering culture.
+        - Attained 100% of quarterly OKRs by leading the team in development of 12 bootstrap projects, and 7 prototypes to improve the developer experience and accelerate modern technology adoption.
+    - title: Senior Engineering Manager
+      company: U.S. Bank
+      logo: /assets/images/logo-usbank.png
+      start_date: 2016-04-01
+      end_date: 2018-06-30
+      location: Minneapolis, MN
+      responsibilities:
+        - Promoted to lead a cross-functional department of 4 teams (32 members), in development of business-critical internal software and APIs for 30K+ users. Managed managers and 6 third-party vendor relationships.
+      accomplishments:
+        - Managed a $10MM departmental budget and guided $5-50MM capital projects, consistently meeting forecasted budgets and estimates within a 1% variance.
+        - Increased customer satisfaction by over 50% and employee engagement by 32% by implementing an agile change leadership transformation.
+        - Reduced production customer impact score by over 75% by collaborating with stakeholders to resolve long-standing problems while balancing new feature work and technical debt.
+    - title: Software Engineering Manager
+      company: U.S. Bank
+      logo: /assets/images/logo-usbank.png
+      start_date: 2014-04-01
+      end_date: 2016-03-31
+      location: Minneapolis, MN
+      responsibilities:
+        - Promoted to manage a full-stack team of 14 engineers that developed enterprise software and capabilities for customers to open accounts and book loans and reduced time-to-market by over 50% by using agile practices.
+      accomplishments:
+        - Increased revenue by $12MM, elevated customer satisfaction, and reduced risk exposure by leading development of a digital-only banking software product for a prominent commercial customer.
+    - title: Lead Software Engineer
+      company: U.S. Bank
+      logo: /assets/images/logo-usbank.png
+      start_date: 2013-06-01
+      end_date: 2014-04-30
+      location: Minneapolis, MN
+      accomplishments:
+        - Developed and launched 8 mission-critical APIs used by 30+ teams and mentored and coached 7 engineers in modern technology, software design and architecture fundamentals, and best practices.
+    - title: Software Engineer
+      company: Magenic Technologies
+      logo: /assets/images/logo-magenic.jpg
+      start_date: 2012-06-01
+      end_date: 2013-05-31
+      location: Minneapolis, MN
+      responsibilities:
+        - Led 3 custom software development projects and was the on-site lead responsible for management of personnel to deliver high quality software on-time and within budget.
+    - title: Founder and CEO
+      company: PC-One, LLC
+      logo: /assets/images/logo-pcone.png
+      start_date: 2007-05-01
+      end_date: 2012-06-30
+      location: Minneapolis, MN
+      responsibilities:
+        - Founded and operated a technology company that specialized in software engineering and developed 20 custom web applications and managed hosting services with 99.99% uptime for 32 customers. 

@@ -121,6 +121,10 @@
 			padding-bottom: 1em;
 			border-bottom: solid 2px _palette(border);
 		}
+
+		&[id] { 
+			scroll-margin-top: 4.5em;
+		}
 	}
 
 	h2 {
@@ -222,8 +226,12 @@
 		clear: both;
 	}
 
-	.larger {
+	.large {
 		font-size: 1.2em;
+	}
+
+	.small {
+		font-size: 0.8em;
 	}
 
 	.hidden {

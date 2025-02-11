@@ -1,0 +1,52 @@
+.experience {
+    .image {
+        margin:0;
+        width: 40px;
+        padding: 0;
+        padding-right: 5px;
+    }
+
+    .row {
+        margin-top: 2em;
+
+        &:first-child {
+            margin-top: 0
+        }
+    }
+
+    hr {
+        margin: 0;
+        padding: 0;
+        border-width: 1px;
+    }
+
+    .company {
+        margin: 0;
+    
+        .name {
+            @include vendor('display', 'flex');
+            @include vendor('flex-direction', 'column');
+            @include vendor('justify-content', 'center');
+            height: 40px;
+            padding-left: 5px;
+        }
+    }
+
+    .position {
+        margin-left: 45px;
+
+        p {
+            margin:0;
+        }
+    }
+
+    .careernote {
+        margin-top: 1em;
+    }
+
+    @include breakpoint('<=small') {
+        .position {
+            margin: 0 0 1em 0;
+        }
+    }
+}

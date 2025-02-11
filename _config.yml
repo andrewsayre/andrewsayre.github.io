@@ -16,6 +16,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+position_date_format: '%b %Y'
 
 collections:
   posts:

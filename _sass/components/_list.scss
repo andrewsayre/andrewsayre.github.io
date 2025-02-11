@@ -25,6 +25,12 @@
 			padding-left: 0.5em;
 		}
 
+		&.spaced {
+			li {
+				margin: _size(element-margin) / 2 0 0 0;
+			}
+		}
+
 		&.alt {
 			list-style: none;
 			padding-left: 0;
@@ -39,6 +45,31 @@
 				}
 			}
 		}
+
+		&.inline {
+			list-style: none;
+			padding-left: 0;
+
+			li {
+				display: inline-block;
+				margin: 0 0.125em;
+				margin-bottom: 0.125em;
+				padding: 0 1.25em;
+				border-right: solid 2px _palette(border);
+	
+				&:last-child {
+					border: 0;
+				}
+			}
+
+			@include breakpoint('<=small') {
+				li {
+					display: block;
+					border: 0;
+				}	
+			}
+		}
+
 	}
 
 	dl {
