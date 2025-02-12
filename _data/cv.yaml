@@ -22,7 +22,7 @@ experience:
   positions:
     - title: Director of Engineering
       company: SmartThings
-      logo: /assets/images/logo-smartthings.png
+      logo: /assets/images/logos/smartthings.png
       logo_alt: Samsung SmartThings
       start_date: 2019-08-01
       end_date: 2024-02-28
@@ -38,7 +38,7 @@ experience:
         - Achieved 100% attainment of 28 accountable semiannual company OKRs by developing technical roadmaps and managing project delivery in collaboration with executives and global stakeholders.
     - title: Director of Engineering
       company: U.S. Bank
-      logo: /assets/images/logo-usbank.png
+      logo: /assets/images/logos/usbank.png
       start_date: 2017-07-01
       end_date: 2019-08-30
       location: Minneapolis, MN
@@ -49,7 +49,7 @@ experience:
         - Attained 100% of quarterly OKRs by leading the team in development of 12 bootstrap projects, and 7 prototypes to improve the developer experience and accelerate modern technology adoption.
     - title: Senior Engineering Manager
       company: U.S. Bank
-      logo: /assets/images/logo-usbank.png
+      logo: /assets/images/logos/usbank.png
       start_date: 2016-04-01
       end_date: 2018-06-30
       location: Minneapolis, MN
@@ -61,7 +61,7 @@ experience:
         - Reduced production customer impact score by over 75% by collaborating with stakeholders to resolve long-standing problems while balancing new feature work and technical debt.
     - title: Software Engineering Manager
       company: U.S. Bank
-      logo: /assets/images/logo-usbank.png
+      logo: /assets/images/logos/usbank.png
       start_date: 2014-04-01
       end_date: 2016-03-31
       location: Minneapolis, MN
@@ -71,7 +71,7 @@ experience:
         - Increased revenue by $12MM, elevated customer satisfaction, and reduced risk exposure by leading development of a digital-only banking software product for a prominent commercial customer.
     - title: Lead Software Engineer
       company: U.S. Bank
-      logo: /assets/images/logo-usbank.png
+      logo: /assets/images/logos/usbank.png
       start_date: 2013-06-01
       end_date: 2014-04-30
       location: Minneapolis, MN
@@ -79,7 +79,7 @@ experience:
         - Developed and launched 8 mission-critical APIs used by 30+ teams and mentored and coached 7 engineers in modern technology, software design and architecture fundamentals, and best practices.
     - title: Software Engineer
       company: Magenic Technologies
-      logo: /assets/images/logo-magenic.jpg
+      logo: /assets/images/logos/magenic.jpg
       start_date: 2012-06-01
       end_date: 2013-05-31
       location: Minneapolis, MN
@@ -87,7 +87,7 @@ experience:
         - Led 3 custom software development projects and was the on-site lead responsible for management of personnel to deliver high quality software on-time and within budget.
     - title: Founder and CEO
       company: PC-One, LLC
-      logo: /assets/images/logo-pcone.png
+      logo: /assets/images/logos/pcone.png
       start_date: 2007-05-01
       end_date: 2012-06-30
       location: Minneapolis, MN
