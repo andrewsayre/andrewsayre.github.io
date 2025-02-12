@@ -41,6 +41,13 @@
         p {
             margin:0;
         }
+
+        p.about {
+            margin-top: 1em;
+            color: darken(_palette(fg), 30%);
+            font-style: italic;
+            font-size: 0.8em;
+        }
     }
 
     .careernote {

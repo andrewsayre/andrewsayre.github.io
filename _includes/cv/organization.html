@@ -1,0 +1,27 @@
+{%- assign logo_alt = include.item.logo_alt | default: include.item.organization -%}
+<p class="company">
+    {%- if include.item.link -%}
+    <a href="{{ include.item.link}}" target="_blank" title="{{ logo_alt | escape }} (opens in a new window)">
+    {%- endif -%}
+    <span class="image left"><img src="{{ include.item.logo | relative_url }}" alt="{{ logo_alt | escape }}" /></span><span class="name">{{ include.item.organization | escape }}</span>
+    {%- if include.item.link -%}
+    </a>
+    {%- endif -%}
+</p>
+<div class="position">
+    <p class="large"><strong>{{ include.item.role | escape }}</strong></p>
+    <p class="small">
+        <time datetime="{{ include.item.start_date | date: '%Y-%m-%d' }}">{{ include.item.start_date | date: site.position_date_format }}</time>&nbsp;&mdash;
+        {%- if include.item.end_date -%}
+        &nbsp;<time datetime="{{ include.item.end_date | date: '%Y-%m-%d' }}">{{ include.item.end_date | date: site.position_date_format }}</time>
+        {%- else %}
+        Present
+        {%- endif -%}
+    </p>
+    {% if include.item.location %}
+    <p class="small">{{ include.item.location | escape }}</p>
+    {%- endif -%}
+    {% if include.item.about %}   
+    <p class="about">{{ include.item.about | escape }}</p>
+    {%- endif -%}
+</div>

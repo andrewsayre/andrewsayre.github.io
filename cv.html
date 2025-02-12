@@ -23,8 +23,8 @@ permalink: /cv/
         <ul class="actions">
             <li><a href="#highlights" class="button primary small">Highlights</a></li>
             <li><a href="#experience" class="button primary small">Experience</a></li>
+            <li><a href="#organizations" class="button primary small">Organizations</a></li>
             <li><a href="#presentations" class="button primary small">Presentations</a></li>
-            <li><a href="#projects" class="button primary small">Projects</a></li>
             <li><a href="#certifications" class="button primary small">Certifications</a></li>
             <li><a href="#education" class="button primary small">Education</a></li>
         </ul>
@@ -49,15 +49,7 @@ permalink: /cv/
             {%- for position in site.data.cv.experience.positions -%}
             <div class="row">
                 <div class="col-4 col-12-small">
-                    {%- assign logo_alt = position.logo_alt | default: position.company -%}
-                    <p class="company"><span class="image left"><img src="{{ position.logo | relative_url }}" alt="{{ logo_alt | escape }}" /></span><span class="name">{{ position.company | escape }}</span></p>
-                    <div class="position">
-                        <p class="large"><strong>{{ position.title | escape }}</strong></p>
-                        <p class="small">
-                            <time datetime="{{ position.start_date | date: '%Y-%m-%d' }}">{{ position.start_date | date: site.position_date_format }}</time> - 
-                            <time datetime="{{ position.end_date | date: '%Y-%m-%d' }}">{{ position.end_date | date: site.position_date_format }}</time></p>
-                        <p class="small">{{ position.location | escape }}</p>
-                    </div>
+                    {% include cv/organization.html item=position %}
                 </div>
                 <div class="col-8 col-12-small">
                     {%- if position.responsibilities.size > 0 -%}
@@ -87,7 +79,35 @@ permalink: /cv/
 
 <div class="wrapper">
     <div class="inner">
-        <h3 class="major" id="presentations">Recent Presentations</h3>
+        <h3 class="major" id="organizations">Organizations</h3>
+        <section class="experience">
+            {%- for item in site.data.cv.organizations -%}
+            <div class="row">
+                <div class="col-4 col-12-small">
+                    {% include cv/organization.html item=item %}
+                </div>
+                <div class="col-8 col-12-small">
+                    {%- if item.description.size > 0 -%}
+                    <ul class="spaced">
+                        {%- for description in item.description -%}
+                        <li>{{ description | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+                        {%- endfor -%}
+                    </ul>
+                    {%- endif -%}
+                </div>
+            </div>
+            {%- if forloop.last == false -%}
+            <hr />
+            {%- endif -%}
+            {%- endfor -%}
+        </section>
+    </div>
+</div>
+
+
+<div class="wrapper style2">
+    <div class="inner">
+        <h3 class="major" id="presentations">Presentations</h3>
         <section class="experience">
             {%- for presentation in site.categories.presentation -%}
             <div class="row">
@@ -110,12 +130,6 @@ permalink: /cv/
             {%- endif -%}
             {%- endfor -%}
         </section>
-    </div>
-</div>
-
-<div class="wrapper style2">
-    <div class="inner">
-        <h3 class="major" id="projects">Projects</h3>
     </div>
 </div>
 

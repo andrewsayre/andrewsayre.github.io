@@ -18,12 +18,14 @@ highlights:
   - 20+ years of experience in software engineering and architecture across Java, .NET, Python, Node.js, Golang, Scala, AWS, and other technology stacks.
 
 experience:
-  career_note: Additional Experience as a Front-End/Web Developer and Software Engineer at Augsburg College and Certified Power, Inc.
+  career_note: Additional experience as a front-end/web developer and software engineer at Augsburg University and Certified Power, Inc.
   positions:
-    - title: Director of Engineering
-      company: SmartThings
-      logo: /assets/images/logos/smartthings.png
+    - role: Director of Engineering
+      organization: SmartThings
       logo_alt: Samsung SmartThings
+      about: Samsung SmartThings is a leading smart home platform connecting millions of IoT devices for over 300 million users worldwide.
+      link: https://www.samsung.com/us/smartthings/
+      logo: /assets/images/logos/smartthings.png
       start_date: 2019-08-01
       end_date: 2024-02-28
       location: Minneapolis, MN
@@ -36,8 +38,9 @@ experience:
         - Achieved a consistent 90%+ employee engagement score and 97%+ annual retention rate by mentoring managers in leadership development, with a particular emphasis on attracting and hiring diverse teams.
         - Managed and contributed to SmartThings’ open-source APIs, SDKs and projects, used by 10,000+ developers to troubleshoot issues, build custom components, and enhance product functionality.
         - Achieved 100% attainment of 28 accountable semiannual company OKRs by developing technical roadmaps and managing project delivery in collaboration with executives and global stakeholders.
-    - title: Director of Engineering
-      company: U.S. Bank
+    - role: Director of Engineering
+      organization: U.S. Bank
+      link: https://www.usbank.com
       logo: /assets/images/logos/usbank.png
       start_date: 2017-07-01
       end_date: 2019-08-30
@@ -47,8 +50,9 @@ experience:
       accomplishments:
         - Aligned 8+ key executive leaders and board members by developing a compelling vision, mission, and strategy to transform technology, people, and processes into a modern, frictionless engineering culture.
         - Attained 100% of quarterly OKRs by leading the team in development of 12 bootstrap projects, and 7 prototypes to improve the developer experience and accelerate modern technology adoption.
-    - title: Senior Engineering Manager
-      company: U.S. Bank
+    - role: Senior Engineering Manager
+      organization: U.S. Bank
+      link: https://www.usbank.com
       logo: /assets/images/logos/usbank.png
       start_date: 2016-04-01
       end_date: 2018-06-30
@@ -59,8 +63,9 @@ experience:
         - Managed a $10MM departmental budget and guided $5-50MM capital projects, consistently meeting forecasted budgets and estimates within a 1% variance.
         - Increased customer satisfaction by over 50% and employee engagement by 32% by implementing an agile change leadership transformation.
         - Reduced production customer impact score by over 75% by collaborating with stakeholders to resolve long-standing problems while balancing new feature work and technical debt.
-    - title: Software Engineering Manager
-      company: U.S. Bank
+    - role: Software Engineering Manager
+      organization: U.S. Bank
+      link: https://www.usbank.com
       logo: /assets/images/logos/usbank.png
       start_date: 2014-04-01
       end_date: 2016-03-31
@@ -69,24 +74,26 @@ experience:
         - Promoted to manage a full-stack team of 14 engineers that developed enterprise software and capabilities for customers to open accounts and book loans and reduced time-to-market by over 50% by using agile practices.
       accomplishments:
         - Increased revenue by $12MM, elevated customer satisfaction, and reduced risk exposure by leading development of a digital-only banking software product for a prominent commercial customer.
-    - title: Lead Software Engineer
-      company: U.S. Bank
+    - role: Lead Software Engineer
+      organization: U.S. Bank
+      link: https://www.usbank.com
       logo: /assets/images/logos/usbank.png
       start_date: 2013-06-01
       end_date: 2014-04-30
       location: Minneapolis, MN
       accomplishments:
         - Developed and launched 8 mission-critical APIs used by 30+ teams and mentored and coached 7 engineers in modern technology, software design and architecture fundamentals, and best practices.
-    - title: Software Engineer
-      company: Magenic Technologies
+    - role: Software Engineer
+      organization: Magenic Technologies
+      link: https://www.usbank.com
       logo: /assets/images/logos/magenic.jpg
       start_date: 2012-06-01
       end_date: 2013-05-31
       location: Minneapolis, MN
       responsibilities:
         - Led 3 custom software development projects and was the on-site lead responsible for management of personnel to deliver high quality software on-time and within budget.
-    - title: Founder and CEO
-      company: PC-One, LLC
+    - role: Founder and CEO
+      organization: PC-One, LLC
       logo: /assets/images/logos/pcone.png
       start_date: 2007-05-01
       end_date: 2012-06-30
@@ -94,6 +101,21 @@ experience:
       responsibilities:
         - Founded and operated a technology company that specialized in software engineering and developed 20 custom web applications and managed hosting services with 99.99% uptime for 32 customers.
 
+organizations:
+  - role: Member and Integration Code Owner
+    organization: Home Assistant
+    about: Home Assistant is an open source home automation/IoT product used by an over 1 million users and was the top project on GitHub by contributions in 2024.
+    link: https://www.home-assistant.io/
+    logo: /assets/images/logos/home_assistant.jpg
+    start_date: 2019-02-01
+    description:
+      - Reviewed over 450 contributions, ensuring adherence to coding standards, project conventions, and best practices to maintain code quality and reliability.
+      - Contributed over 150 pull requests, enhancing the platform with new features, integrations, and bug fixes.
+      - |
+        Developed the [SmartThings](https://www.home-assistant.io/integrations/smartthings){:target="_blank"} and 
+        [HEOS](https://www.home-assistant.io/integrations/heos){:target="_blank"} integrations, collectively serving over 26,000 users, which expanded the Home Assistant ecosystem.
+      - Maintain code ownership of the HEOS integration, overseeing the codebase, providing support, and ensuring compatibility and interoperability with the latest HEOS firmware.
+      
 certifications:
   - name: "Certified SAFe® 4 Agilist"
     issuer: Scaled Agile, Inc.
