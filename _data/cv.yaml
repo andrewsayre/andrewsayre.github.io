@@ -18,7 +18,7 @@ highlights:
   - 20+ years of experience in software engineering and architecture across Java, .NET, Python, Node.js, Golang, Scala, AWS, and other technology stacks.
 
 experience:
-  career_note: Additional Experience as a Front-End/Web Developer and Software Engineer at Augsburg College (Aug 2003 - May 2007) and Certified Power, Inc. (May 2003 - Aug 2003)
+  career_note: Additional Experience as a Front-End/Web Developer and Software Engineer at Augsburg College and Certified Power, Inc.
   positions:
     - title: Director of Engineering
       company: SmartThings
@@ -93,3 +93,21 @@ experience:
       location: Minneapolis, MN
       responsibilities:
         - Founded and operated a technology company that specialized in software engineering and developed 20 custom web applications and managed hosting services with 99.99% uptime for 32 customers.
+
+education:
+  - degree: Master of Arts - MA
+    field: Educational Psychology
+    institution: University of Minnesota--Twin Cities
+    logo: /assets/images/logos/umn.jpg
+    location: Minneapolis, MN
+    description:
+      - Studied organizational psychology, adult learning, research methods, advanced statistics, group psychology, and counseling.
+  - degree: Bachelor of Arts - BA
+    field: Psychology and English
+    institution: Augsburg University
+    logo: /assets/images/logos/augsburg.jpg
+    location: Minneapolis, MN
+    description:
+      - Studied computer science, scientific writing, research methods, business writing, expository writing, management information systems, social psychology, developmental psychology, and Japanese (language)
+      - Hired as Director of the Student Activities Council, managing a team of 6, a $90,000 budget, and planned over 30 events per year
+      - Won the Senior Leadership Award, Outstanding Organization Leader Award, and Behind the Scenes Leader of the Year Award
