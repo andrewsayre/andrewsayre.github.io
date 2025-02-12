@@ -22,6 +22,10 @@
 			.nav {
 				margin: 0 _size(section-spacing, large) 0 0;
 				width: calc(50% - #{_size(section-spacing, large) * 0.5});
+
+				li {
+					border:0
+				}
 			}
 
 			.contact {

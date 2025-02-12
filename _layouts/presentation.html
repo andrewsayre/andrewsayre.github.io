@@ -1,0 +1,40 @@
+---
+layout: default
+---
+<div itemscope itemtype="http://schema.org/BlogPosting">
+    <section id="wrapper">
+        <header>
+            <div class="inner">
+                <h2 itemprop="name headline">{{ page.title | escape }}</h2>
+                <p><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                        {{ page.date | date: "%b %-d, %Y" }} at {{ page.event | escape }}
+                </time></p>
+            </div>
+        </header>
+        <div class="wrapper">
+            <div class="inner">
+                <div itemprop="articleBody">
+                    {%- if page.image -%}
+                    <span class="image left"><img src="{{ page.image }}" alt="" /></span>
+                    {%- endif -%}
+                    <p class="large"><strong>{{ page.excerpt }}</strong></p>
+                    <p>
+                        {%- if page.links.video -%}
+                        <a href="{{ page.links.video }}" class="special" target="_blank">Watch the video</a>
+                        {%- endif -%}
+                    </p>
+                    <div class="clear"></div>
+                  
+                    <h3>Abstract:</h3>
+                    <blockquote>{{ page.abstract }}</blockquote>
+
+                    {{ content }}
+                </div>
+                <ul class="actions">
+                    <li><a href="/presentations/" class="button primary">All Presentations</a></li>
+                    <li><a href="/" class="button">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+</div>
