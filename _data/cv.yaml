@@ -94,6 +94,45 @@ experience:
       responsibilities:
         - Founded and operated a technology company that specialized in software engineering and developed 20 custom web applications and managed hosting services with 99.99% uptime for 32 customers.
 
+certifications:
+  - name: "Certified SAFe® 4 Agilist"
+    issuer: Scaled Agile, Inc.
+    logo: /assets/images/logos/sa-safe4.png
+    issue_date: 2018-05-01
+    expiration_date: 2019-05-31
+  - name: "Certified Agile Leadership I (CAL1)"
+    issuer: Scrum Alliance
+    logo: /assets/images/logos/scrum-alliance-cal1.png
+    issue_date: 2018-04-01
+  - name: "Microsoft Certified Solutions Developer: App Builder Charter Member"
+    issuer: Microsoft
+    logo: /assets/images/logos/microsoft.jpg
+    issue_date: 2016-09-25
+  - name: "Microsoft Certified Solutions Developer: Web Applications"
+    issuer: Microsoft
+    logo: /assets/images/logos/microsoft.jpg
+    issue_date: 2014-10-31
+  - name: "Microsoft Specialist: Programming in HTML5 with JavaScript and CSS3"
+    issuer: Microsoft
+    logo: /assets/images/logos/microsoft.jpg
+    issue_date: 2014-10-31
+  - name: "Microsoft® Certified Professional Developer: Web Developer 4"
+    issuer: Microsoft
+    logo: /assets/images/logos/microsoft.jpg
+    issue_date: 2012-06-22
+  - name: "Microsoft® Certified Technology Specialist: .NET Framework 4, Data Access"
+    issuer: Microsoft
+    logo: /assets/images/logos/microsoft.jpg
+    issue_date: 2012-06-20
+  - name: "Microsoft® Certified Technology Specialist: .NET Framework 4, Web Applications"
+    issuer: Microsoft
+    logo: /assets/images/logos/microsoft.jpg
+    issue_date: 2012-06-20
+  - name: "Microsoft® Certified Technology Specialist: .NET Framework 4, Web Applications"
+    issuer: Microsoft
+    logo: /assets/images/logos/microsoft.jpg
+    issue_date: 2012-06-14
+
 education:
   - degree: Master of Arts - MA
     field: Educational Psychology
@@ -109,5 +148,5 @@ education:
     location: Minneapolis, MN
     description:
       - Studied computer science, scientific writing, research methods, business writing, expository writing, management information systems, social psychology, developmental psychology, and Japanese (language)
-      - Hired as Director of the Student Activities Council, managing a team of 6, a $90,000 budget, and planned over 30 events per year
+      - Hired as Director of the Student Activities Council, managed a team of 6, a $90,000 budget, and planned over 30 campus-wide events
       - Won the Senior Leadership Award, Outstanding Organization Leader Award, and Behind the Scenes Leader of the Year Award

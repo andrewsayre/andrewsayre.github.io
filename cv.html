@@ -122,6 +122,22 @@ permalink: /cv/
 <div class="wrapper">
     <div class="inner">
         <h3 class="major" id="certifications">Certifications</h3>
+        <section class="experience">
+            {%- for item in site.data.cv.certifications -%}
+            <p class="company"><span class="image left"><img src="{{ item.logo | relative_url }}" alt="{{ item.issuer | escape }}" /></span><span class="name">{{ item.issuer | escape }}</span></p>
+            <div class="position">
+                <p class="large"><strong>{{ item.name | escape }}</strong></p>
+                <p class="small">Issued: {{ item.issue_date | date: site.certification_date_format }}
+                    {%- if item.expiration_date -%}
+                    &mdash;{{ item.expiration_date | date: site.certification_date_format }}
+                    {%- endif -%}
+                </p>
+            </div>
+            {%- if forloop.last == false -%}
+            <hr />
+            {%- endif -%}
+            {%- endfor -%}
+        </section>
     </div>
 </div>
 
