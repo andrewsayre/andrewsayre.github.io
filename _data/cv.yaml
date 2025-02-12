@@ -2,20 +2,23 @@ summary: |
   Purpose-driven software engineering leader with 15+ years of experience delivering highly scaled SaaS, IoT, and FinTech products. 
   Successful track record of leading, motivating, and scaling teams to deliver innovative products in fast-paced environments. 
   Passionate about fostering engineering excellence, building diverse teams, promoting life-long learning, and creating environments where people thrive and do their best work.
+
 skills:
   - Software Engineering
   - Product Management
   - Program Management
   - Roadmap Development
   - Strategic Planning
+
 highlights:
   - Launched SmartThing's B2B IoT SaaS Platform (APIs, SDKs, and a React-based mobile app) by leading a large cross-functional engineering effort across 12+ teams, resulting in on-time delivery for a key business partnership.
   - Provided executive leadership to an enterprise modernization strategy aimed at transforming the culture and technology to get to market faster, increase customer and employee satisfaction, and reduce risk at U.S. Bank.
   - Orchestrated and led an agile change leadership transformation for an engineering department of 32 team members resulting in 50% increase in customer satisfaction and 32% increase in employee engagement.
   - Founded and operated a technology company that provided consulting, developed 20 custom web applications, and managed website and email hosting services with 99.99% uptime for 32 customers.
   - 20+ years of experience in software engineering and architecture across Java, .NET, Python, Node.js, Golang, Scala, AWS, and other technology stacks.
+
 experience:
-  career_note: Additional Experience as a Front-End Developer/Software Engineer at Augsburg College (Aug 2003 - May 2007) and Software Engineer at Certified Power, Inc. (May 2003 - Aug 2003)
+  career_note: Additional Experience as a Front-End/Web Developer and Software Engineer at Augsburg College (Aug 2003 - May 2007) and Certified Power, Inc. (May 2003 - Aug 2003)
   positions:
     - title: Director of Engineering
       company: SmartThings
@@ -89,4 +92,34 @@ experience:
       end_date: 2012-06-30
       location: Minneapolis, MN
       responsibilities:
-        - Founded and operated a technology company that specialized in software engineering and developed 20 custom web applications and managed hosting services with 99.99% uptime for 32 customers. 
+        - Founded and operated a technology company that specialized in software engineering and developed 20 custom web applications and managed hosting services with 99.99% uptime for 32 customers.
+
+
+presentations:
+- title: "SmartThings Build: Bringing connected living experiences to life for multi-family"
+  event: Samsung Developer Conference
+  date: "2021-10-26"
+  links:
+    video: https://www.youtube.com/watch?v=WA5iyX24npo
+    image: /assets/images/presentation-stbuild.jpg
+  summary: |
+    Presentation by Andrew Sayre and Jenny Brandmaier on SmartThings’ vision for builders, operators, and multi-family markets to delight residents and improve efficiency.
+    We’ll dive into the products we recently deployed in the market.
+
+- title: "IoT as a Service: How SmartThings Is Embracing Enterprise"
+  event: Samsung Developer Conference
+  date: "2019-10-29"
+  links:
+    video: https://www.youtube.com/watch?v=5WRa39WFN5A
+  summary: |
+    In this presentation, My colleagues and I discussed how SmartThings evolved to support enterprise use cases, expanding beyond consumer smart homes into areas like energy management, 
+    senior care, vacation rentals, and multifamily property automation. I covered how we enabled businesses to integrate IoT solutions through a flexible access model, 
+    policy-based permissions, and developer-friendly APIs.
+    
+- title: Keynote Speaker and Facilitator
+  event: Home Assistant Meetup
+  date: "2019-08-20"
+  summary: |
+    I hosted the first Twin Cities Home Assistant Meetup on August 20, 2019, delivered the keynote presentation, and facilitated a discussion with Paulus Shoutsen, who joined via video to greet the attendees.
+    The event included an introduction to Home Assistant, live demonstration, and an interactive discussion on its features, integrations, and ecosystem. I also shared insights from my contributions
+    to the project, including SmartThings and HEOS integrations.

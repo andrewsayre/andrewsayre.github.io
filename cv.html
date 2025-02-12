@@ -12,7 +12,7 @@ permalink: /cv/
             <h2 class="major">Andrew Sayre, MA</h2>
             <p>{{ site.data.cv.summary | escape }}</p>
             <p><strong>Skills:</strong> {{ site.data.cv.skills | join: ', '}}</p>
-            <a href="/about/" class="special">More about Andrew</a>
+            <p><a href="/about/" class="special">More about Andrew</a></p>
         </div>
     </div>
 </section>
@@ -39,7 +39,11 @@ permalink: /cv/
             <li>{{ highlight | escape }}</li>
             {%- endfor -%}
         </ul>
+    </div>
+</div>
 
+<div class="wrapper style2">
+    <div class="inner">
         <h3 class="major" id="experience">Experience</h3>
         <section class="experience">
             {%- for position in site.data.cv.experience.positions -%}
@@ -78,8 +82,31 @@ permalink: /cv/
             {%- endfor -%}
             <p class="careernote"><em><strong>Career Note:</strong> {{ site.data.cv.experience.career_note | escape }}</em></p>
         </section>
+    </div>
+</div>
 
-        <h3 class="major" id="presentations">Presentations</h3>
+<div class="wrapper">
+    <div class="inner">
+        <h3 class="major" id="presentations">Recent Presentations</h3>
+        <section class="experience">
+            {%- for presentation in site.data.cv.presentations -%}
+            <div class="row">
+                <div class="col-5 col-12-small">
+                    <p class="small condense">{{ presentation.event | escape }}</p>
+                    <p class="large condense"><strong>{{ presentation.title | escape }}</strong></p>
+                    <p class="small condense"><time datetime="{{ presentation.date | date: '%Y-%m-%d' }}">{{ presentation.date | date: site.presentation_date_format }}</time></p>
+                </div>
+                <div class="col-7 col-12-small">
+                    <p>{{ presentation.summary | escape }}</p>
+                    <p class="small">
+                        {%- if presentation.links.video -%}
+                        <a href="{{ presentation.links.video }}" class="special" target="_blank">Watch the video</a></p>
+                        {%- endif -%}
+                </div>
+            </div>
+            <hr />
+            {%- endfor -%}
+        </section>
 
         <h3 class="major" id="projects">Projects</h3>
 

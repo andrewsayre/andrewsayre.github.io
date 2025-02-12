@@ -1,10 +1,5 @@
 .experience {
-    .image {
-        margin:0;
-        width: 40px;
-        padding: 0;
-        padding-right: 5px;
-    }
+    
 
     .row {
         margin-top: 2em;
@@ -29,6 +24,13 @@
             @include vendor('justify-content', 'center');
             height: 40px;
             padding-left: 5px;
+        }
+
+        .image {
+            margin:0;
+            width: 40px;
+            padding: 0;
+            padding-right: 5px;
         }
     }
 

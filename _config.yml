@@ -17,6 +17,7 @@ plugins:
   - jekyll-seo-tag
 
 position_date_format: '%b %Y'
+presentation_date_format: '%b %d, %Y'
 
 collections:
   posts:
