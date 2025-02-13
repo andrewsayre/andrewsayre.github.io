@@ -6,7 +6,7 @@
             <p class="small condense">{{ post.event | escape }}</p>
             {%- endif -%}
             <p class="large condense"><a href="{{ post.url | relative_url }}"><strong>{{ post.title | escape }}</strong></a></p>
-            <p class="small condense"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.presentation_date_format }}</time></p>
+            <p class="small"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.presentation_date_format }}</time></p>
         </div>
         <div class="col-7 col-12-small">
             {%- if post.image -%}
