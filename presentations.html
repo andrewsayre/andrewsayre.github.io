@@ -6,33 +6,6 @@ permalink: /presentations/
 ---
 <div class="wrapper">
     <div class="inner">
-        <section class="experience">
-            {%- for post in site.categories.presentation -%}
-            <div class="row">
-                <div class="col-5 col-12-small">
-                    <p class="small condense">{{ post.event | escape }}</p>
-                    <p class="large condense"><a href="{{ post.url | relative_url }}"><strong>{{ post.title | escape }}</strong></a></p>
-                    <p class="small condense"><time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: site.presentation_date_format }}</time></p>
-                </div>
-                <div class="col-7 col-12-small">
-                    {%- if post.image -%}
-                    <a href="{{ post.url | relative_url }}">
-                    <span class="image fit"><img src="{{ post.image | relative_url }}" alt="" /></span></a>
-                    {%- endif -%}
-                    <p>
-                        {{ post.excerpt }} 
-                        {%- if post.links.video -%}
-                        <a href="{{ post.links.video }}" target="_blank">Watch the video.</a> 
-                        {%- endif -%}
-                    </p>
-                    {%- if post.abstract -%}
-                    <h3>Abstract:</h3>
-                    <blockquote>{{ post.abstract }}</blockquote>
-                    {%- endif -%}
-                </div>
-            </div>
-            <hr />
-            {%- endfor -%}
-        </section>
+        {% include posts.html posts=site.categories.presentation %}
     </div>
 </div>
