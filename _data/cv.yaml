@@ -5,6 +5,11 @@ summary: |
 
 skills:
   - Software Engineering
+  - Architecture
+  - Cross-Functional Leadership
+  - Coaching and Mentoring
+  - Empathy
+  - Executive Communication
   - Product Management
   - Program Management
   - Roadmap Development
@@ -30,7 +35,7 @@ experience:
       end_date: 2024-02-28
       location: Minneapolis, MN
       responsibilities:
-        - Led 5 full-stack teams (approx. 37 members), managing managers and principal engineers, in development of highly scaled IoT products for 300MM+ users across device, edge, and cloud platforms.
+        - Directed 5 product engineering teams (approx. 37 members), managing managers and principal engineers, for IoT (Smart Home) products serving 300M+ users in AWS using Java, Kotlin, Scala, Go, Python, and Node.js.
         - Attracted, retained, and nurtured top engineering talent to build diverse, high-performing, engaged teams.
         - Directed the architecture, design, development, and support of globally available products, ensuring reliability, scalability, performance, and security.
         - Established and optimized engineering and operational processes, fostering a culture of innovation, continuous improvement, and engineering excellence.
@@ -43,7 +48,7 @@ experience:
       end_date: 2019-08-30
       location: Minneapolis, MN
       responsibilities:
-        - Promoted to the executive team to lead the core systems modernization strategy for a 12,000 person IT organization and led a cross-functional team of 7 senior managers.
+        - Promoted to lead an engineering modernization strategy across a 12,000 person IT organization and oversaw a platform team providing modern internal developer products and services using Java, C#/.NET and Go.
         - Defined and communicated a clear vision, mission, and strategy to transform people, technology, and process into a modern, high-performing engineering organization.
         - Persuaded and influenced senior and executive leaders by leveraging data-driven insights and storytelling to secure buy-in and support for strategic initiatives.
         - Directed the design and development of bootstrap projects and prototypes that enhanced the developer experience and accelerated adoption of modern technologies.
@@ -55,7 +60,7 @@ experience:
       end_date: 2018-06-30
       location: Minneapolis, MN
       responsibilities:
-        - Promoted to lead a cross-functional department of 4 teams (32 members) developing business-critical software and APIs used across the organization to open accounts, underwrite loans, and complete business workflows.
+        - Promoted to lead 4 cross-functional teams (32 members) developing software and APIs used by 100+ internal teams to power account opening, loan underwriting, and mission-critical business operations written in Java.
         - Recruited, retained, and developed top talent and led an agile transformation to increase performance, engagement, and business goal alignment.
         - Directed architecture, design, development, and support of software, ensuring compliance with stringent regulatory, security, and compliance requirements.
         - Ensured predictable project and program delivery, consistently meeting deadlines and budgets.
@@ -69,7 +74,7 @@ experience:
       end_date: 2016-03-31
       location: Minneapolis, MN
       responsibilities:
-        - Promoted to lead a full-stack team of 14 engineers, delivering enterprise solutions for document generation, e-signature, and account opening.
+        - Hands-on leader for a 14-person full-stack team building FinTech products and enterprise APIs for document generation and e-signature using C#/.NET, JavaScript (AngularJS, Node.js) , HTML5, CSS3, and MS SQL Server.
         - Directed architecture, design, development, and support of enterprise software while ensuring engineering excellence and continuous improvement.
         - Ensured project and program delivery were aligned with business goals and outcomes.
         - Attracted, retained, and developed talent and fostered a culture of learning and collaboration.
@@ -109,7 +114,7 @@ experience:
 organizations:
   - role: Member and Integration Code Owner
     organization: Home Assistant
-    about: Home Assistant is an open source home automation/IoT product used by an over 1 million users and was the top project on GitHub by contributions in 2024.
+    about: Home Assistant is an open source home automation/IoT product used by an over 1 million users and was the top project on GitHub by contributions in 2024. Written in Python, JavaScript (Polymer), and Ruby (Jekyll), leveraging Docker, GitHub Actions, MQTT, WebSockets, REST APIs, and other technologies.
     link: https://www.home-assistant.io/
     logo: /assets/images/logos/home_assistant.jpg
     start_date: 2019-02-01
@@ -118,7 +123,7 @@ organizations:
       - Contributed over 150 pull requests, enhancing the platform with new features, integrations, and bug fixes.
       - |
         Developed the [SmartThings](https://www.home-assistant.io/integrations/smartthings){:target="_blank"} and 
-        [HEOS](https://www.home-assistant.io/integrations/heos){:target="_blank"} integrations, collectively serving over 26,000 users, which expanded the Home Assistant ecosystem.
+        [HEOS](https://www.home-assistant.io/integrations/heos){:target="_blank"}  integrations (achieving [platinum quality](/posts/2025/03/06/ha-heos-platinum)), collectively serving over 26,000 users, which expanded the Home Assistant ecosystem.
       - Maintain code ownership of the HEOS integration, overseeing the codebase, providing support, and ensuring compatibility and interoperability with the latest HEOS firmware.
       
 certifications:
