@@ -26,6 +26,19 @@ experience:
   career_note: Additional experience as a front-end/web developer and software engineer at Augsburg University and Certified Power, Inc.
   positions:
     - role: Director of Engineering
+      organization: GovDocs
+      logo_alt: GovDocs
+      about: GovDocs is a software development SaaS company that simplifies employment law compliance for large, multi-jurisdiction employers in the U.S. and Canada.
+      link: https://www.govdocs.com/
+      logo: /assets/images/logos/govdocs.png
+      start_date: 2024-04-01
+      end_date: present
+      location: Eagan, MN
+      responsibilities:
+        - Lead the software engineering function and oversee the entire software development lifecycle for GovDocs' products using AWS, TypeScript, Node.JS, React, and MongoDB.
+        - Direct architecture, development, release, and operations of the company’s software products, ensuring performance, reliability, security, and regulatory compliance.
+        - Define and implement engineering strategy, delivery processes, and organizational structure to align with evolving business goals and product strategy.
+    - role: Director of Engineering
       organization: SmartThings
       logo_alt: Samsung SmartThings
       about: Samsung SmartThings is a leading smart home platform connecting millions of IoT devices for over 300 million users worldwide.
